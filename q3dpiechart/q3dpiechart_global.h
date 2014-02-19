@@ -1,0 +1,12 @@
+#ifndef Q3DPIECHART_GLOBAL_H
+#define Q3DPIECHART_GLOBAL_H
+
+#include <Qt/qglobal.h>
+
+#ifdef Q3DPIECHART_LIB
+# define Q3DPIECHART_EXPORT Q_DECL_EXPORT
+#else
+# define Q3DPIECHART_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // Q3DPIECHART_GLOBAL_H

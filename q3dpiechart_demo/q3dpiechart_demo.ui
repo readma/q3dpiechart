@@ -1,0 +1,19 @@
+<ui version="4.0" >
+ <class>q3dpiechart_demoClass</class>
+ <widget class="QDialog" name="q3dpiechart_demoClass" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>652</width>
+    <height>483</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>q3dpiechart_demo</string>
+  </property>
+ </widget>
+ <layoutdefault spacing="6" margin="11" />
+ <resources/>
+ <connections/>
+</ui>
